@@ -42,4 +42,8 @@ body {
   position: fixed;
   touch-action: none;
 }
+
+.background::-webkit-scrollbar {
+  display: none;
+}
 </style>
