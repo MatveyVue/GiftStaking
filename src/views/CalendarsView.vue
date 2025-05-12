@@ -102,6 +102,6 @@ body {
 .outer-container {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 15px;
 }
 </style>
