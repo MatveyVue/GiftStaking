@@ -1,14 +1,16 @@
 body {
     background-color: rgb(1, 1, 1);
-      touch-action: none;
-      overflow-x: hidden;
-      background-attachment: fixed;
-      -ms-overflow-style: none;
-      scrollbar-width: none;
-      margin: 0;
-      font-family: Inter;
-      -ms-touch-action: none; 
-      user-select: none;
+    overflow-x: hidden;
+    background-attachment: fixed;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    margin: 0;
+    font-family: Inter;
+    touch-action: 0;
+    overflow-y: scroll;
+    -ms-touch-action: none; 
+    user-select: none;
+    scrollbar-width: none; 
 }
 
 body::-webkit-scrollbar {
@@ -23,14 +25,14 @@ body::-webkit-scrollbar {
     margin-top: 250px;
     border-top-left-radius: 27px;
     border-top-right-radius: 27px;
-    overflow-y: scroll;   
+    overflow-y: scroll;
 }
 
 .icon {
     width: 32vw;
     margin-left: 10px;
     min-width: 50px;
-    max-width: 120px;
+    max-width: 150px;
     margin-top: 10px;
 }
 
@@ -108,7 +110,7 @@ body::-webkit-scrollbar {
 .usercont {
     background-color: rgb(18, 18, 18);
     width: 99%;
-    height: 80px;
+    height: 70px;
     margin-left: 15px;
     border-radius: 15px;
 }
@@ -155,8 +157,8 @@ body::-webkit-scrollbar {
 
 .calback {
     background-color: #191919;
-    width: 76px;
-    height: 80px;
+    width: 65px;
+    height: 70px;
     border-radius: 15px;
 }
 
