@@ -33,7 +33,7 @@
   
 <p class="steaked">Steaked</p>
 
-<div class="outer-container">
+<div class="outer-container" style="margin-top: -10px;">
 <div v-for="(person, index) in stcalendars" :key="index" class="gifts">
 <div class="usercont">
   <div class="calback">
@@ -102,6 +102,6 @@ body {
 .outer-container {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 5px;
 }
 </style>
