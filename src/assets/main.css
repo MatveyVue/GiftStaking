@@ -30,9 +30,9 @@ body::-webkit-scrollbar {
 
 .icon {
     width: 32vw;
-    margin-left: 10px;
+    margin-left: 18px;
     min-width: 50px;
-    max-width: 110px;
+    max-width: 125px;
     margin-top: 10px;
 }
 
