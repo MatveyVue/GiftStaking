@@ -6,7 +6,7 @@
 </div>
     <p class="name">{{ person.name }}</p>
 <div>
-<RouterLink style="text-decoration: none;" to="calendars">
+<RouterLink style="text-decoration: none; cursor: pointer;" to="calendars">
     <button class="stakebtn">Stake</button>
 </RouterLink>
 </div>
@@ -18,7 +18,7 @@
 </div>
     <p class="name">{{ person.name }}</p>
 <div>
-<RouterLink style="text-decoration: none;" to="calendars">
+<RouterLink style="text-decoration: none; cursor: pointer;" to="calendars">
     <button class="stakebtn">Stake</button>
 </RouterLink>
 </div>
