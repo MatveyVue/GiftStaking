@@ -1,16 +1,14 @@
 body {
     background-color: rgb(1, 1, 1);
-    overflow-x: hidden;
-    background-attachment: fixed;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    margin: 0;
-    font-family: Inter;
-    touch-action: 0;
-    overflow-y: scroll;
-    -ms-touch-action: none; 
-    user-select: none;
-    scrollbar-width: none; 
+      touch-action: none;
+      overflow-x: hidden;
+      background-attachment: fixed;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      margin: 0;
+      font-family: Inter;
+      -ms-touch-action: none; 
+      user-select: none;
 }
 
 body::-webkit-scrollbar {
