@@ -37,7 +37,7 @@
 <div v-for="(person, index) in stcalendars" :key="index" class="gifts">
 <div class="usercont">
   <div class="calback">
-    <img style="width: 80px; margin-left: -5px; border-radius: 15px;" :src="person.icon" alt="Calendar Icon" v-if="person.icon">
+    <img style="width: 70px; margin-left: -5px; border-radius: 15px;" :src="person.icon" alt="Calendar Icon" v-if="person.icon">
   </div>
     <p class="nameuser">{{ person.name }}</p>
     <p class="timeuser">{{ person.time }}</p>
@@ -73,7 +73,7 @@ body {
   background: fixed;
   overflow-y: hidden;
   position: fixed;
-  touch-action: none;
+  touch-action: 0;
   font-family: Inter;
   overflow-y: scroll;
 }
@@ -89,7 +89,7 @@ body {
   color: white;
   font-family: Inter;
   margin-left: 120px;
-  margin-top: -50px;
+  margin-top: -45px;
 }
   
 .timeuser {
