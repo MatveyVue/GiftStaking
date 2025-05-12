@@ -104,4 +104,8 @@ body {
   flex-direction: column;
   gap: 5px;
 }
+
+.background::-webkit-scrollbar {
+  display: none;
+}
 </style>
