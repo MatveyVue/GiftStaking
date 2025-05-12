@@ -162,3 +162,16 @@ body {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
+
+.stakebtn2 {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    font-family: Geologica;
+    height: 35px;
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: black;
+    font-size: 16px;
+}
