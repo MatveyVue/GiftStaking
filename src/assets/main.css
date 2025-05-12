@@ -6,8 +6,15 @@ body {
     scrollbar-width: none;
     margin: 0;
     font-family: Inter;
-    touch-action: none;
+    touch-action: 0;
     overflow-y: scroll;
+    -ms-touch-action: none; 
+    user-select: none;
+    scrollbar-width: none; 
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .background {
@@ -25,7 +32,7 @@ body {
     width: 32vw;
     margin-left: 10px;
     min-width: 50px;
-    max-width: 120px;
+    max-width: 150px;
     margin-top: 10px;
 }
 
