@@ -23,11 +23,7 @@ body::-webkit-scrollbar {
     margin-top: 250px;
     border-top-left-radius: 27px;
     border-top-right-radius: 27px;
-    overflow-y: scroll;
-    display: none;
-    scrollbar-width: none;
-    overflow: hidden;
-    
+    overflow-y: scroll;   
 }
 
 .icon {
