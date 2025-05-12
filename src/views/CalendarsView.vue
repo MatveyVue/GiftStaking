@@ -26,6 +26,9 @@
   <p class="time">Total Times: {{ person.time }}</p>
 </div>
 </div>
+<a href="https://t.me/haterusers">
+  <button class="stakebtn2">Stake</button>
+</a>
 
   
 <p class="steaked">Steaked</p>
@@ -99,6 +102,6 @@ body {
 .outer-container {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
 }
 </style>
