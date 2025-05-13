@@ -88,17 +88,11 @@ body::-webkit-scrollbar {
     border-top-right-radius: 27px;
 }
 
-.gifts {
-    display: inline-block;
-    margin-right: 12px;
-    margin-top: 15px;
-    background-color: rgb(18, 18, 18);
-    height: 235px;
-    border-radius: 15px;
-    margin-left: 10px;
-    width: 50%;
-    max-width: 200px;
-}
+.gifts { 
+    display: inline-block; 
+    margin-right: 20px; 
+} 
+
 
 .gift-container {
     display: flex;
