@@ -30,7 +30,7 @@ body::-webkit-scrollbar {
 
 .icon {
     width: 32vw;
-    margin-left: 18px;
+    margin-left: 25px;
     min-width: 50px;
     max-width: 125px;
     margin-top: 10px;
@@ -71,11 +71,11 @@ body::-webkit-scrollbar {
     font-family: Geologica;
     height: 35px;
     width: 40vw;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 0px;
     color: black;
     font-size: 16px;
-    max-width: 200px;
+    max-width: 180px;
     cursor: pointer;
 }
 
@@ -90,7 +90,14 @@ body::-webkit-scrollbar {
 
 .gifts {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 12px;
+    margin-top: 15px;
+    background-color: rgb(18, 18, 18);
+    height: 235px;
+    border-radius: 15px;
+    margin-left: 10px;
+    width: 50%;
+    max-width: 200px;
 }
 
 .gift-container {
