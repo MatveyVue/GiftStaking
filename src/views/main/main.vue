@@ -41,7 +41,7 @@ import { calendar, gcookie } from '../main/home.js';
 .name {
     font-family: Inter;
     color: white;
-    margin-left: 10px;
+    margin-left: 12px;
     margin-top: -2px;
 }
 
