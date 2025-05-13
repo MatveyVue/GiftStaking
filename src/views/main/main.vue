@@ -41,15 +41,16 @@ import { calendar, gcookie } from '../main/home.js';
 .name {
     font-family: Inter;
     color: white;
-    margin-left: 25px;
+    margin-left: 10px;
     margin-top: -2px;
 }
 
 .backgifm {
-    background-color: rgb(0, 0, 0);
-    width: 150px;
+    background-color: rgb(18, 18, 18);
+    width: 50%;
     height: 150px;
-    margin-left: 20px;
+    margin-left: 0px;
     border-radius: 15px;
+    max-width: 200px;
 }
 </style>
