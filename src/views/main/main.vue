@@ -41,7 +41,7 @@ import { calendar, gcookie } from '../main/home.js';
 .name {
     font-family: Inter;
     color: white;
-    margin-left: 12px;
+    margin-left: 10px;
     margin-top: -2px;
 }
 
@@ -51,6 +51,18 @@ import { calendar, gcookie } from '../main/home.js';
     height: 150px;
     margin-left: 0px;
     border-radius: 15px;
+    max-width: 200px;
+}
+
+.gifts {
+    display: inline-block;
+    margin-right: 12px;
+    margin-top: 15px;
+    background-color: rgb(18, 18, 18);
+    height: 235px;
+    border-radius: 15px;
+    margin-left: 10px;
+    width: 50%;
     max-width: 200px;
 }
 </style>
