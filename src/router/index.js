@@ -14,6 +14,16 @@ const router = createRouter({
       name: 'calendars',
       component: () => import('../views/CalendarsView.vue'),
     },
+    {
+      path: '/lightsword',
+      name: 'lightsword',
+      component: () => import('../views/LightSword.vue'),
+    },
+    {
+      path: '/BondedRing',
+      name: 'BondedRing',
+      component: () => import('../views/BondedRing.vue'),
+    },
   ],
 })
 
