@@ -6,24 +6,43 @@
 </div>
     <p class="name">{{ person.name }}</p>
 <div>
-<RouterLink style="text-decoration: none;" to="calendars">
+<RouterLink style="text-decoration: none;" to="Calendars">
     <button class="stakebtn">Stake</button>
 </RouterLink>
 </div>
 </div>
 
-<div v-for="(person, index) in gcookie" :key="index" class="gifts">
+<div v-for="(person, index) in lightsword" :key="index" class="gifts">
 <div class="backgifm">
-    <img class="icon" :src="person.icon" alt="Gcookie Icon" v-if="person.icon">
+    <img class="icon" :src="person.icon" alt="light Sword Icon" v-if="person.icon">
 </div>
     <p class="name">{{ person.name }}</p>
 <div>
-<RouterLink style="text-decoration: none;" to="calendars">
+<RouterLink style="text-decoration: none;" to="LightSword">
     <button class="stakebtn">Stake</button>
 </RouterLink>
 </div>
 </div>
 </div>
+
+
+
+<div class="gift-container" style="margin-top: 5px; width: 90%;">
+<div v-for="(person, index) in bondedring" :key="index" class="gifts">
+<div class="backgifm">
+    <img class="icon" :src="person.icon" alt="Bonded Ring Icon" v-if="person.icon">
+</div>
+    <p class="name">{{ person.name }}</p>
+<div>
+<RouterLink style="text-decoration: none;" to="BondedRing">
+    <button class="stakebtn">Stake</button>
+</RouterLink>
+</div>
+</div>
+</div>
+
+
+
 
 <h1>.</h1>
 <h1>.</h1>
@@ -34,7 +53,7 @@
 </template>
 
 <script setup>
-import { calendar, gcookie } from '../main/home.js';
+import { calendar, lightsword, bondedring } from '../main/home.js';
 </script>
 
 <style scoped>
